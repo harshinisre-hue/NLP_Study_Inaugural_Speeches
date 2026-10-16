@@ -1,17 +1,18 @@
-NLP Study across Inaugural Speeches
+# NLP Study across Inaugural Speeches
+____________________________________________________________________________________________
 
 An **Interactive NLP (Natural Language Processing) web application** that anayzes over two centuries of American presidential inaugural adresses (from 1789-2026) using Python, NLTK and Streamlit.
 
 **Tech Stack:** Python | NLTK | Streamlit | Pandas | Textstat | WordCloud | Matplotlib
 
-# Features
+## Features
    - **Lexical Diversity** : Ratio of Unique Words/Total Words to evaluation vocabulary richness across different historical eras.
    - **Readability Index** : Measures the U.S. school grade level required to comprehend each of the texts using the Flesch Kincaid Metric
    - **VADER Sentiment Compound** : Uses NLTK's Vader sentiment Analyzer to judge the overall tone (with -1 being extremely negative and +1 being extremely positive)
    - **Keyword Frequency** : User can input a search term and find it's frequency across every presidential election year in a line chart.
    - **Word Cloud**: User can select a 50-year time period from the `wordcloud` library to generate a Word Cloud with colours and most commonly used words in the half-century.
 
-Modules:
+### Modules:
 1. `preprocessor.py`
    Uses the NLTK Inaugural Corpus to extract every presidential adress from 1789.
    Cleans raw text by converting all characters to lowerase and strips punctuation using string translation tables.
