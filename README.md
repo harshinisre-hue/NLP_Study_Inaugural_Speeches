@@ -1,4 +1,4 @@
-# project
+NLP Study across Inaugural Speeches
 
 An **Interactive NLP (Natural Language Processing) web application** that anayzes over two centuries of American presidential inaugural adresses (from 1789-2026) using Python, NLTK and Streamlit.
 
