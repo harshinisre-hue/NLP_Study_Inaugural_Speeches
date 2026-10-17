@@ -24,7 +24,8 @@ An **Interactive NLP (Natural Language Processing) web application** that anayze
    Uses **Streamlit** to create an interactive web interface, organized into three tabs:
    - **Tab 1**: Words
        Allows users to input a search term (e.g. *freedom*, *constitution*) to observe it's usage frequency across every presidential election.
-     **Example with "Freedom"**
+     
+     **Word Frequency Example with "Freedom"**
      <img width="1408" height="700" alt="2026-10-16T14-20_chart" src="https://github.com/user-attachments/assets/c9d71050-60b9-448d-a570-9f1a53be0b27" />
      
        Allows users to create WordClouds for each half-century.
@@ -34,7 +35,8 @@ An **Interactive NLP (Natural Language Processing) web application** that anayze
 
    - **Tab 2**: Readability and Sentiment
        Uses line charts to show how Flesch Kincaid Levels and the VADER Compound score has changed over the years.
-     **Flesch Kincaid Levels:**
+
+      **Flesch Kincaid Levels:**
       <img width="1408" height="700" alt="2026-10-16T14-29_chart" src="https://github.com/user-attachments/assets/a0c16716-9eb8-460c-a3c4-6da4774b2b4a" />
   (It's fascinating to observe a decrease in the reading level of speeches over the years)
 
@@ -44,7 +46,11 @@ An **Interactive NLP (Natural Language Processing) web application** that anayze
 
   - **Tab 3** : Core Metrics
     Returns a line-chart on Lexical Diversity and Average Sentence Length over the years
+
+   **Lexical Diversity**
   <img width="1408" height="700" alt="2026-10-16T14-36_chart" src="https://github.com/user-attachments/assets/46facb11-22e3-43bd-a124-dde5696ed793" />
+
+  **Average Sentence Length**
   <img width="1408" height="700" alt="2026-10-16T14-36_chart (1)" src="https://github.com/user-attachments/assets/550b2411-1523-41c0-a6f4-93f8ef0563b8" />
 
   
